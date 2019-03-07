@@ -1,4 +1,12 @@
 {
+    "python.envFile": "${workspaceFolder}/.vscode/env",
     "python.pythonPath": "/usr/local/bin/python3.7",
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "python.unitTest.pyTestArgs": [
+        "."
+    ],
+    "python.unitTest.cwd": "${workspaceFolder}/solution/src/python",
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.pyTestEnabled": true
 }
